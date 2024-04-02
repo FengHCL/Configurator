@@ -1,0 +1,148 @@
+{
+    "classname": "ComponentListElement",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d8d95213df644a6d8b951d9860cbb57b",
+                    "paramList": [],
+                    "propertyKey": "unsubscribe",
+                    "pw": {
+                        "displayName": "unsubscribe",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gdfc80c3934c42899f1f91ac899de7d3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "g4a9fb45a1e44d59853fc0fee7fdbd02",
+                    "originalPropertyKey": "selected",
+                    "propertyIndex": 3,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "gdfc80c3934c42899f1f91ac899de7d3",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "a29499ba8d524749bd410da2fb1c97a0",
+                    "originalPropertyKey": "upSelected",
+                    "propertyIndex": 4,
+                    "propertyKey": "upSelected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "upSelected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "gdfc80c3934c42899f1f91ac899de7d3",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "e624d4103ec04ec5901765cda6c21655",
+                    "originalPropertyKey": "downSelected",
+                    "propertyIndex": 5,
+                    "propertyKey": "downSelected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "downSelected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "gdfc80c3934c42899f1f91ac899de7d3",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f33cd3d85c1345c58a7a994fec27be55",
+                    "originalPropertyKey": "image",
+                    "propertyIndex": 1,
+                    "propertyKey": "image",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "cmpTile",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "dc8ca7e9cdd04749b265e62ecb7d0d9b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "af49bd0b35f2496cad70759ab9a2e7bc",
+                    "originalPropertyKey": "title",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "cmpTile",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "dc8ca7e9cdd04749b265e62ecb7d0d9b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.luxottica",
+    "version": "1.0.0"
+}
